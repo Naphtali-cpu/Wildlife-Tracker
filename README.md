@@ -14,4 +14,4 @@ So far there are no contibutors.
 ## Behaviour Driven Development(BDD)
 |Behaviour 	           |    Input 	                 |       Output          |
 |----------------------------------------------|:-----------------------------------:|-----------------------------:|       
-|Page loads.                         |   User goes to add animal, add animal in a form.              |At the homepage the user is able to see the squad's name. <br><br><br> Again, at the home page the user is able to see number of heroes he/she created and their details.     |                       |
+|Page loads.                         |   User goes to add animal, add animal in a form.              |Once the user submits the form, it redirects them to anoter page where data is added    |                       |
