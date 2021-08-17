@@ -15,3 +15,4 @@ So far there are no contibutors.
 |Behaviour 	           |    Input 	                 |       Output          |
 |----------------------------------------------|:-----------------------------------:|-----------------------------:|       
 |Page loads.                         |   User goes to add animal, add animal in a form.              |Once the user submits the form, it redirects them to anoter page where data is added    |                       |
+
