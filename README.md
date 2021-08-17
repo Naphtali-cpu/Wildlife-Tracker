@@ -12,3 +12,6 @@ The App, wild life tracker is for tracking animal in a park and ensuring their s
 So far there are no contibutors.
 
 ## Behaviour Driven Development(BDD)
+|Behaviour 	           |    Input 	                 |       Output          |
+|----------------------------------------------|:-----------------------------------:|-----------------------------:|       
+|Page loads.                         |   User                  |At the homepage the user is able to see the squad's name. <br><br><br> Again, at the home page the user is able to see number of heroes he/she created and their details.     |                       |
