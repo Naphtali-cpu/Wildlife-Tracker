@@ -10,3 +10,5 @@ The App, wild life tracker is for tracking animal in a park and ensuring their s
 ## Contributors
 
 So far there are no contibutors.
+
+## Behaviour Driven Development(BDD)
