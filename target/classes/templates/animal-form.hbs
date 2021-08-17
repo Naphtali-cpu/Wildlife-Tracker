@@ -1,0 +1,50 @@
+    {{#partial "styles"}}
+        <link rel='stylesheet' href='/css/styles.css'>
+    {{/partial}}
+    {{#partial "form"}}
+
+        <header>
+            <h2><a href="#" class="logo">Logo</a></h2>
+            <div class="navigation">
+                <a href="/">Home</a>
+                <a href="/animals">Animal</a>
+                <a href="/animal/new">Add Animal</a>
+                <a href="#">Services</a>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <form action="/animal" method="post">
+                        <p class="h4 mb-4">Animal Spotted</p>
+                        <input type="text" id="name" name="name" class="form-control mb-4" placeholder="Animal Name" >
+                        <input type="text" id="ranger" name="ranger" class="form-control mb-4" placeholder="Ranger's Name">
+                        <input list="age-list"type="text" id="age" name="age" class="form-control mb-4" placeholder="Age eg:young">
+                        <datalist id="age-list">
+                            <option>NewBorn</option>
+                            <option>Young</option>
+                            <option>Adult</option>
+                        </datalist>
+                        <input type="text" id="location" name="location" class="form-control mb-4" placeholder="Location spotted">
+                        <input list="health-list" type="text"  id="health" name="health" class="form-control mb-4" placeholder="Health">
+                        <datalist id="health-list">
+                            <option>Healthy</option>
+                            <option>Okay</option>
+                            <option>Ill</option>
+                        </datalist>
+                        <input list="status-list" type="text" id="status" name="status" class="form-control mb-4" placeholder="Status eg Endengared">
+                        <datalist id="status-list">
+                            <option>Endangered</option>
+                            <option>Not Endangered</option>
+                        </datalist>
+
+                        <div class="d-flex justify-content-around">
+                        </div>
+
+                        <button class="btn btn-info " type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    {{/partial}}
+    {{> anima-form-layout.hbs}}
