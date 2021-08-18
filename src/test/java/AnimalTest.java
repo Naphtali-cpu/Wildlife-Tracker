@@ -49,4 +49,82 @@ public  class AnimalTest{
 
         assertEquals("Endangered", testAnimal.getStatus());
     }
+    @Test
+    public void Animal_instantiatesWithHali_String() {
+        Animals testAnimal = new Animals("Buffalo", "Naphtali","adult","Serengeti", "Healthy", "Endangered");
+        assertEquals("Endangered", testAnimal.getStatus());
+    }
+
+    @Test
+    public void Animal() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("Okay", testEndanger.getType());
+    }
+    @Test
+    public void Animal2() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("Danger", testEndanger.getType2());
+    }
+    @Test
+    public void Animal3() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("Safe", testEndanger.getType3());
+    }
+    @Test
+    public void Animal4() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("Fine", testEndanger.getType4());
+    }
+    @Test
+    public void Animal5() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("Risky", testEndanger.getType5());
+    }
+
+    @Test
+    public void Animal6() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("Unpredicable", testEndanger.getType6());
+    }
+    @Test
+    public void Animal7() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("friendly", testEndanger.getType7());
+    }
+    @Test
+    public void Animal8() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("free", testEndanger.getType8());
+    }
+    @Test
+    public void Animal9() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("unknown", testEndanger.getType9());
+    }
+    @Test
+    public void Animal10() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("suspicious", testEndanger.getType10());
+    }
+    @Test
+    public void Animal11() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("handled", testEndanger.getType11());
+    }
+    @Test
+    public void Animal12() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("able", testEndanger.getType12());
+    }
+    @Test
+    public void Animal13() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("unable", testEndanger.getType13());
+    }
+    @Test
+    public void Animal14() {
+        Endanger testEndanger = new Endanger("Okay", "Danger", "Safe", "Fine", "Risky", "Unpredicable", "friendly", "free", "unknown", "suspicious", "handled", "able", "unable", "vigorous");
+        assertEquals("vigorous", testEndanger.getType14());
+    }
+
 }
