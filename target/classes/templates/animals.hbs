@@ -1,0 +1,53 @@
+{{#partial "styles"}}
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="/app.css">
+{{/partial}}
+{{#partial "content"}}
+
+    <header>
+        <h2><a href="#" class="logo">Logo</a></h2>
+        <div class="navigation">
+            <a href="/">Home</a>
+            <a href="/animals">Animal</a>
+            <a href="/animal/new">Add Animal</a>
+            <a href="#">Services</a>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <table id="dtBasicExample" class="table" width="100%">
+                <thead>
+                <tr>
+                    <th class="th-sm">Name
+                    </th>
+                    <th class="th-sm">Ranger
+                    </th>
+                    <th class="th-sm">Age
+                    </th>
+                    <th class="th-sm">Location
+                    </th>
+                    <th class="th-sm">Health
+                    </th>
+                    <th class="th-sm">Status
+                    </th>
+                    <th class="th-sm">Time Spotted
+                </tr>
+                </thead>
+                <tbody>
+                {{#each animals}}
+                    <tr>
+                        <td class="box">{{name}}</td>
+                        <td>{{ranger}}</td>
+                        <td>{{age}}</td>
+                        <td>{{location}}</td>
+                        <td>{{health}}</td>
+                        <td>{{status}}</td>
+                        <td>{{time}}</td>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </div>
+    </div>
+{{/partial}}
+{{> layout.hbs}}
