@@ -22,3 +22,10 @@ So far there are no contibutors.
 * Spark
 * Handlebars
 * CSS 3
+
+## Contact Information
+* Email- naphtali919@gmail.com
+* Mobile Number- +254727991993
+* Instagram @ _naphtalimakori
+* Facebook @ Naphtali McOrri
+* Linked In @ Naphtali Makori
