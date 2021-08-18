@@ -13,7 +13,7 @@ public class Animals {
     private String spottime;
     private int id;
 
-    public Animals (String name, String ranger, String age, String location, String health, String status, String spottime){
+    public Animals(String name, String ranger, String age, String location, String health, String status){
         this.name = name;
         this.ranger = ranger;
         this.age = age;

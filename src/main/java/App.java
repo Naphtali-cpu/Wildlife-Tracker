@@ -45,8 +45,8 @@ public class App {
             String location = request.queryParams("location");
             String health = request.queryParams("health");
             String status = request.queryParams("status");
-            String spottime = request.queryParams("spottime");
-            Animals newAnimal = new Animals(name, ranger, age, location, health, status,spottime);
+//            String spottime = request.queryParams("spottime");
+            Animals newAnimal = new Animals(name, ranger, age, location, health, status);
             newAnimal.save();
             response.redirect("/animals");
             return null;
